@@ -1,0 +1,25 @@
+Father of all noSQL databases but used for analytics, super high throuput read/writes. 
+Its first no SQL db internally used in google to power almost all google apps like gmail, maps, photos, calender etc.
+
+Fully managed & clustered, you need to provision the nodes.
+Low latency, massively scalable NoSQL
+
+BigTable is priced by provisioned nodes. BigTable does not autoscale.
+
+ACE** - The Compute Engine default service account is created with the Cloud IAM project editor role
+
+To access big table, we can use HBase API.
+
+Yuo can directly query bigtable from bigquery(similar to cloud sql, google drive, cloud storage)
+
+Big query is read intensive while bigtable is write intensive.
+
+You need to enter the number of BigTable nodes you'll provision.
+BigTable is priced by provisioned nodes. BigTable does not autoscale. BigTable does not store its data in GCS
+
+
+	
+
+		
+			
+			
